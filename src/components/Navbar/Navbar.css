@@ -1,0 +1,58 @@
+.layout{
+    margin-top: 10px;
+    
+}
+.button-view{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: rgb(44, 44, 44);
+    box-shadow: 0 6px 6px 0 rgba(170, 169, 169, 0.993);
+    border: 1px solid rgb(44, 44, 44) ;
+    margin-left:5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button#one:active
+{
+    background-color: transparent;
+    background:rgba(212, 160, 17, 0.918);
+    color: rgb(44, 44, 44);
+}
+
+button#two:focus
+{
+    background-color: transparent;
+    background:rgb(245, 243, 243);
+    color: rgb(44, 44, 44);
+    font-weight: 800;
+}
+
+
+.active {
+    background-color: rgb(44, 44, 44) !important;
+  }
+
+.spinner-view{
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0 6px 6px 0 rgba(170, 169, 169, 0.993);
+    color:  white;
+    background: rgb(44, 44, 44);
+    border-radius: .25rem;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+h1 {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+  }

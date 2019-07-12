@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Products from './components/ProductList/Product'
+import Home from './/components/Home/Home';
+import Banner from './components/Banner/Banner';
+import NavBar from './components/Navbar/Navbar';
+import ProductDetails from './components/ProductDetails/ProductDetails';
+import AllProducts from './components/All Products/AllProducts';
+import AboutUs from './components/AboutUs/AboutUs';
+import Contact from './components/Contact/Contact';
+import Login from './components/Login/Login';
+import MyCart from './components/MyCart/MyCart';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Switch, Route } from 'react-router-dom';
+
+class App extends Component {
+
+  render() {
+
+    return (
+      <div>
+        <NavBar />
+        {/* Checking for the path with <Route> */}
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/Home" component={Home} />
+          <Route path="/ProductDetails" component={ProductDetails} />
+          <Route path="/AllProducts" component={AllProducts} />
+          <Route path="/AboutUs" component={AboutUs} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Login" component={Login} />
+          <Route path="/MyCart" component={MyCart} />
+        </Switch>
+      </div>
+    );
+  }
 }
-
 export default App;

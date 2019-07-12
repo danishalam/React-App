@@ -1,0 +1,46 @@
+img{
+    width: 150px;
+    height:100px;
+    margin-top: 20px;
+    
+}
+.cart-image{
+    width: 50px;
+    height: 50px;
+}
+.layout{
+    margin-top: 100px;
+    
+}
+.ProductComponents {
+    text-align: center;
+  }
+  
+h6{
+    text-align: center;   
+}
+
+.card{
+    width: 180px;
+    height: 230px;
+    float: left;
+    text-align: bottom;
+    margin: 10px;
+    background: rgb(245, 243, 243);
+    box-shadow: 0 6px 6px 0 rgba(170, 169, 169, 0.993);
+    padding: 5px;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: .35rem;
+}
+
+.content {
+    padding: 15px;
+}
+  
+button {
+    margin: 2px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: .25rem;
+}
