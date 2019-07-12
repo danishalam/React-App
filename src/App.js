@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Products from './components/ProductList/Product'
+import ProductList from './components/ProductList/ProductList'
 import Home from './/components/Home/Home';
 import Banner from './components/Banner/Banner';
 import NavBar from './components/Navbar/Navbar';
