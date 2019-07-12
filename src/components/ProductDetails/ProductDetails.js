@@ -6,6 +6,7 @@ class ProductDetails extends Component {
         const productDetails = this.props.location.state.element;
         console.log("Details: " + productDetails);
         return (
+            //Here we are rendering Product details using card
             <div class="container">
                 <h3 width = "100%">Product Details</h3>
                 <div align="center" class="card-productdetail">
